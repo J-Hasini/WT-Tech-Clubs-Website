@@ -23,11 +23,19 @@
             font-size: 20px;
             color: white;
         }
+        .club-box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        }
+        .club-box {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2E5077;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2E5077;">
         <a class="navbar-brand" href="#">CBIT Clubs</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,8 +73,8 @@
 
         <div class="row" style="background-color: #2E5077; border-radius: 16px; padding-top: 20px; padding: 10px;">
             <div class="col-md-4 mb-4">
-                <div class="club-box" style="margin-top:10px; padding: 10px; background-color: #F6F4F0; height: 300px; border-radius: 6px;" >
-                    <h3>CBIT DEveloper Student Club</h3>
+                <div class="club-box" style="margin-top:10px; padding: 10px; background-color: #F6F4F0; height: 300px; border-radius: 6px;" onclick="location.href='club1.html';">
+                    <h3>CBIT Developer Student Club</h3>
                     <p>Learn and practice coding.</p>
                 </div>
             </div>
